@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Tailor</title>
+  </head>
+  <body>
+    <!-- header   -->
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>TA</span>ilor</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#packages">our tailors</a>
+        <a href="#services">services</a>
+        <a href="#gallery">design</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+      </form>
+    </div>
+
+    <!-- login end  -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Tailor at your doorstep</h3>
+        <p>Find the perfect tailor for your unique style with us</p>
+        <a href="#" class="btn">discover more</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="./image/vid-1"></span>
+        <span class="vid-btn" data-src="image/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="image/vid-1.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- <section class="home" id="home">
+  <div class="content">
+    <h3>adventure is worthwhile</h3>
+    <p>discover new places with us, adventure awaits</p>
+    <a href="#" class="btn">discover more</a>
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn active" data-src="./image/vid-1"></span>
+    <span class="vid-btn" data-src="image/vid-2.mp4"></span>
+    <span class="vid-btn" data-src="image/vid-3.mp4"></span>
+    <span class="vid-btn" data-src="image/vid-4.mp4"></span>
+    <span class="vid-btn" data-src="image/vid-5.mp4"></span>
+  </div>
+
+  <div class="video-container">
+    <img src="path_to_your_image.jpg" id="video-slider">
+  </div>
+</section> -->
+
+    <!-- home section ends -->
+
+    <!-- our tailor section starts  -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>T</span>
+        <span>a</span>
+        <span>i</span>
+        <span>l</span>
+        <span>o</span>
+        <span>r</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/t_img/img1.webp" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> mumbai</h3>
+            <p>
+              I'm your go-to tailor for impeccable custom-made clothing and alterations.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">900k people Visit </div>
+            <a href="#" class="btn">Visit now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/t_img/img2.webp" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Ahmedabad</h3>
+            <p>
+              I bring passion and precision to every garment. From bespoke suits to elegant dresses.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">900k people Visit </div>
+            <a href="#" class="btn">Visit now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/t_img/img3.webp" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>  Pune</h3>
+            <p>
+              my expertise in custom-made clothing and alterations guarantees a flawless fit.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+           <div class="price">900k people Visit </div>
+            <a href="#" class="btn">Visit now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/t_img/img4.webp" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Jaipur</h3>
+            <p>
+              I've been refining the art of bespoke tailoring, ensuring each piece reflects your personality. 
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+           <div class="price">900k people Visit </div>
+            <a href="#" class="btn">Visit now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/t_img/img5.jpeg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>  Kolkata</h3>
+            <p>
+              I'm committed to crafting garments that enhance your individuality. 
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">900k people Visit </div>
+            <a href="#" class="btn">Visit now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/t_img/img6.webp" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> hyderabad</h3>
+            <p>
+              I'm dedicated to creating bespoke clothing that embodies elegance and sophistication.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">900k people Visit </div>
+            <a href="#" class="btn">Visit now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our tailor section ends -->
+
+    <!-- design section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>D</span>
+        <span>e</span>
+        <span>s</span>
+        <span>i</span>
+        <span>g</span>
+        <span>n</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/design/d1.webp" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/design/d2.webp" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/design/d3.webp" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/design/d4.webp" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/design/d5.jpeg" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/design/d6.jpeg" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="image/design/d7.jpeg"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/design/d8.jpeg" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="image/design/d9.jpeg" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- design section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3> Custom Accessories</h3>
+          <p>
+          We have a wide range of bow ties which fit everyday fashion as well as special occasions
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>   Custom Talioring</h3>
+          <p>
+          You can choose all details you want, from buttons to pockets and lapels, we can do everything.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>  Suit Resizing</h3>
+          <p>
+          Each our suit is made to your exact measurements and fit your specific body type
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3> Wedding Services</h3>
+          <p>
+          You and your groomsmen deserve the sharpest suits. Let us help you create suits for your day.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>Bespoke Design Services</h3>
+          <p>
+            Elevate your wardrobe with our bespoke design service. we'll bring your vision to life with impeccable craftsmanship and attention to detail.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>Alterations and Repairs</h3>
+          <p>
+            We offer expert alterations and repairs for your existing garments.our skilled tailors will ensure your clothing fits perfectly and looks as good as new.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- about us -->
+    <section class="about-us">
+      <h1 class="heading">
+        
+        <span>A</span>
+        <span>b</span>
+        <span>o</span>
+        <span>u</span>
+        <span>t</span>
+        <span>u</span>
+        <span>s</span>
+      </h1>
+      </div>
+      <div class="services_A">
+        <div class="service_A">
+          <div class="service-header_A">
+            <i class="fas fa-pen-nib"></i>
+            <h3>Convenience</h3>
+          </div>
+          <p class="service-text_A">
+            Users can book appointments and order clothing from the comfort of their own homes.
+          </p>
+        </div>
+        <div class="service_A">
+          <div class="service-header_A">
+            <i class="fas fa-paint-roller"></i>
+            <h3>Choice</h3>
+          </div>
+          <p class="service-text_A">
+            There is a wide range of tailors to choose from, so users can find one who specializes in the style they are looking for.
+          </p>
+        </div>
+        <div class="service_A">
+          <div class="service-header_A">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>Customization</h3>
+          </div>
+          <p class="service-text_A">
+            Users can get clothing that is made to their exact measurements and specifications.
+          </p>
+        </div>
+        <div class="service_A">
+          <div class="service-header_A">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Competitive prices</h3>
+          </div>
+          <p class="service-text_A">
+            Online tailors often have lower overhead costs than traditional tailors, so they can offer competitive prices.
+          </p>
+        </div>
+        <div class="service_A">
+          <div class="service-header_A">
+            <i class="fas fa-ruler-combined"></i>
+            <h3>Convenience of reordering</h3>
+          </div>
+          <p class="service-text_A">
+            Once a user has established a relationship with a tailor through the platform, reordering becomes even more convenient.
+          </p>
+        </div>
+        <div class="service_A">
+          <div class="service-header_A">
+            <i class="far fa-building"></i>
+            <h3>Flexible scheduling</h3>
+          </div>
+          <p class="service-text_A">
+            This means users can choose appointment times that fit into their busy schedules, whether it's during evenings, weekends, or even holidays. 
+          </p>
+        </div>
+        <div class="about-us-img-wrapper">
+          <img src="./image/img11.jpeg" />
+        </div>
+      </div>
+    </section>
+
+
+    <!-- about  -->
+
+
+
+<!--  out team  -->
+     <section class="team">
+         <h1 class="heading">
+        <span>O</span>
+        <span>u</span>
+        <span>r</span>
+        <span>T</span>
+        <span>e</span>
+        <span>a</span>
+        <span>m</span>
+      </h1>
+        </div>
+        <div class="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="image/owner/image-11.jpg" alt="CEO" />
+            </div>
+            <div class="card-info">
+              <h2>John Smith</h2>
+              <h3>CEO</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="image/owner/image-12.jpg" alt="Designer" />
+            </div>
+            <div class="card-info">
+              <h2>Ann Brown</h2>
+              <h3>Designer</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="image/owner/image-13.jpg" alt="Architect" />
+            </div>
+            <div class="card-info">
+              <h2>Mary Doe</h2>
+              <h3>Architect</h3>
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores, impedit!"
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- our team -->
+
+
+
+
+<!--  review -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/reviews/pp1.jpeg" alt="">
+                    <h3>Michael Davis</h3>
+                    <p>
+                      I had a fantastic experience using the tailor booking platform. The interface was user-friendly, making it easy to browse through different tailors and their portfolios. The tailor I selected was highly skilled, and I was impressed by the quality of their craftsmanship. They paid close attention to my measurements and preferences, resulting in a garment that fits me perfectly. The level of customization available was excellent, allowing me to personalize every aspect of the design. I will definitely be using this service again in the future.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/reviews/pp2.jpeg" alt="">
+                    <h3> Mary Smith</h3>
+                    <p>
+                      My experience with the tailor I found through the booking platform was exceptional. The tailor's attention to detail was evident throughout the process. They listened to my preferences carefully and offered valuable suggestions to enhance the design. The craftsmanship of the final garment was impeccable, and the fit was perfect. I appreciated the level of customization available, allowing me to create a truly unique piece.I highly recommend this tailor for anyone looking for top-notch tailoring services.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/reviews/pp3.jpeg" alt="">
+                    <h3>Emily Brown</h3>
+                    <p>
+                      Working with the tailor I found through the booking platform was a pleasure from start to finish. The booking process was straightforward, and I appreciated the flexibility in scheduling appointments.The craftsmanship of the garment was exceptional. I was impressed by the level of customization available, allowing me to create a piece that truly reflects my style and preferences.I had a fantastic experience, and I highly recommend this tailor booking platform to anyone looking for quality custom clothing.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/reviews/pp4.jpg" alt="">
+                    <h3>David Johnson</h3>
+                    <p>
+                      I recently used the tailor booking platform to order a custom suit, and I couldn't be happier with the result. The entire experience was smooth and efficient. The tailor I selected was skilled and professional, and they took the time to understand my preferences and measurements. The craftsmanship of the suit was outstanding,with attention to detail. I was impressed by the level of customization available. The suit fits me perfectly and exceeds my expectations. I will definitely be returning for future orders.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/gepeto-1475528_640.webp" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
